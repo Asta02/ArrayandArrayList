@@ -1,0 +1,7 @@
+tasks:
+  - init: javac -d bin src/main/java/arrayandarraylist/*.java
+    command: java -cp bin main.java.arrayandarraylist.Comparison
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
